@@ -1,0 +1,28 @@
+{
+  "name": "epicseven-wallpaper-scraper",
+  "version": "1.0.0",
+  "description": "Zero-dependency Node.js CLI tool to scrape and download Epic Seven wallpapers and lobby animations from e7codex.",
+  "type": "module",
+  "main": "src/index.js",
+  "bin": {
+    "e7-wallpapers": "./src/index.js"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "scrape": "node src/index.js",
+    "dry-run": "node src/index.js --dry-run"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": [
+    "epic-seven",
+    "e7",
+    "scraper",
+    "wallpapers",
+    "downloader",
+    "e7codex"
+  ],
+  "author": "",
+  "license": "MIT"
+}

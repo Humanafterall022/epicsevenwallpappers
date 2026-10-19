@@ -1,0 +1,16 @@
+# Output directory
+wallpapers/
+test_wallpapers/
+*.tmp*
+.scratch/
+
+# Dependencies & logs
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
